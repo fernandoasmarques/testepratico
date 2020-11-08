@@ -1,16 +1,11 @@
-# testelw
+# Teste LW
 
-A new Flutter project.
+Projeto Flutter
 
-## Getting Started
+## Informações Gerais
 
-This project is a starting point for a Flutter application.
+Este projeto foi feito utilizando o Framework Flutter. Para a gestão de estados da aplicação utilizei o MobX. Para a
+gestão de rotas e injeção de dependências utilizei o Modular (feito pela comunidade Flutterando Brasil).
+A arquitetura utilizada foi a Clean Arquitecture (Arquitetura Limpa). Foi feita a divisão de camadas em Domain, Infra, External e Presenter.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+O módulo principal para a gestão do BottomNavigation é o HubModule. Para fazer a navegação da Home - para acessar os veículos listados - foi criado um submodulo dentro de Hub.
