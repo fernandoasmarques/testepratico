@@ -1,5 +1,3 @@
-# Teste LW
-
 Projeto Flutter
 
 ## Informações Gerais
